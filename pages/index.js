@@ -26,7 +26,7 @@ const Home = () => {
     return (
         <div className="root">
             <Head>
-                <title>GPT-3 Writer | buildspace</title>
+                <title>Bumble Reply | Dhruv Khara</title>
             </Head>
             <div className="container">
                 <div className="header">
