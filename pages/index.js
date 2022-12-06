@@ -15,6 +15,7 @@ const Home = () => {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({ userInput }),
+            cors: "no-cors",
         });
         const { output } = await response.json();
         setApiOutput(output.text);
